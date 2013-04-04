@@ -1,0 +1,3 @@
+.btn-cta {
+    @include buttonBackground($btnPrimaryBackground, $btnPrimaryBackgroundHighlight, #333);
+}
