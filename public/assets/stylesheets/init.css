@@ -239,30 +239,32 @@ body {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  background-color: whitesmoke;
+  background-color: #333333;
+  background-image: url("/assets/img/bg-purple.jpg");
+  background-position: center top;
 }
 
-/* line 22, ../sass/vendor/bootstrap/_scaffolding.scss */
+/* line 24, ../sass/vendor/bootstrap/_scaffolding.scss */
 a {
   color: #6dff32;
   text-decoration: none;
 }
 
-/* line 27, ../sass/vendor/bootstrap/_scaffolding.scss */
+/* line 29, ../sass/vendor/bootstrap/_scaffolding.scss */
 a:hover,
 a:focus {
   color: #42e500;
   text-decoration: underline;
 }
 
-/* line 37, ../sass/vendor/bootstrap/_scaffolding.scss */
+/* line 39, ../sass/vendor/bootstrap/_scaffolding.scss */
 .img-rounded {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
 }
 
-/* line 42, ../sass/vendor/bootstrap/_scaffolding.scss */
+/* line 44, ../sass/vendor/bootstrap/_scaffolding.scss */
 .img-polaroid {
   padding: 4px;
   background-color: #fff;
@@ -273,7 +275,7 @@ a:focus {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 51, ../sass/vendor/bootstrap/_scaffolding.scss */
+/* line 53, ../sass/vendor/bootstrap/_scaffolding.scss */
 .img-circle {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -2200,7 +2202,7 @@ table {
 }
 /* line 53, ../sass/vendor/bootstrap/_tables.scss */
 .table .table {
-  background-color: whitesmoke;
+  background-color: #333333;
 }
 
 /* line 65, ../sass/vendor/bootstrap/_tables.scss */
@@ -4464,7 +4466,7 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs > .active > a:hover,
 .nav-tabs > .active > a:focus {
   color: #555555;
-  background-color: whitesmoke;
+  background-color: #333333;
   border: 1px solid #ddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -7837,19 +7839,31 @@ a.label:hover, a.label:focus, a.badge:hover, a.badge:focus {
 
 /* line 1, ../sass/scaffolding.scss */
 header {
-  margin: 50px 0 40px 0;
-  text-align: center;
+  /*margin: 50px 0 40px 0;
+  text-align: center;*/
 }
 
 /* line 6, ../sass/scaffolding.scss */
 .container {
-  width: 600px;
+  width: 597px;
   padding: 0 0 50px 0;
+  background: #fbfbfb;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
 }
 
-/* line 11, ../sass/scaffolding.scss */
+/* line 17, ../sass/scaffolding.scss */
 .btn-container {
   margin-top: 20px;
+  text-align: center;
+}
+
+/* line 22, ../sass/scaffolding.scss */
+p {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
   text-align: center;
 }
 
