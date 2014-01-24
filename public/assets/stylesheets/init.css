@@ -7841,11 +7841,21 @@ header {
 
 /* line 6, ../sass/scaffolding.scss */
 .container {
-  width: 597px;
+  width: 1000px;
   padding: 0 0 50px 0;
   background: #fbfbfb;
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
+}
+
+#logo-zone {
+    position: absolute;
+    top: 18px;
+    left: 11px;
+    height: 21px;
+    width: 240px;
+    border-left: 1px solid #e0e0e0;
+    background-color: transparent;
 }
 
 /* line 17, ../sass/scaffolding.scss */
