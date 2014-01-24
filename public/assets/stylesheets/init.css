@@ -238,11 +238,7 @@ body {
   font-family: "Gafata", sans-serif;
   font-size: 14px;
   line-height: 20px;
-  color: #333333;
-  background-color: #333333;
-  background-image: url("/assets/img/bg-purple.jpg");
-  background-position: center top;
-}
+ }
 
 /* line 24, ../sass/vendor/bootstrap/_scaffolding.scss */
 a {
